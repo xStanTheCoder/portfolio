@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/65a3c1939a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <h2 id="logo">Stan The Coder</h2>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item">
+          <a href="pages/contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hi! I'm Stan The Coder (real name a little bit later) and am an
+              Quality Assurance Engineer who wants to swith career to Full-Stack
+              Developer. To do this I joined 100 Days Of Code challenge and
+              started several courses (FreeCodeCamp, The Odin Project,
+              Codecademy). Currently I'm in the middle of my journey.
+            </p>
+          </div>
+          <img
+            src="images/logo.png"
+            alt="A photo of Stan The Coder"
+            class="portrait"
+          />
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Random Phrase Generator</h3>
+          </summary>
+          <img
+            src="images/random_phrase_generator.png"
+            alt="Random Phrase Generator"
+            class="project-image"
+          />
+          <p class="project-description">
+            The project generates random phrases and displays them to the user.
+          </p>
+          <p>
+            <a
+              class="live-preview"
+              href="https://xstanthecoder.github.io/javascript-syntax/"
+              target="_blank"
+              >Live Preview</a
+            >
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Rock Paper Scissors</h3>
+          </summary>
+          <img
+            src="images/rock_paper_scissors.png"
+            alt="Rock Paper Scissors game"
+            class="project-image"
+          />
+          <p class="project-description">
+            Rock Paper Scissors game against the computer.
+          </p>
+          <p>
+            <a
+              class="live-preview"
+              href="https://xstanthecoder.github.io/rock-paper-scissors/"
+              target="_blank"
+              >Live Preview</a
+            >
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Etch-a-Sketch</h3>
+          </summary>
+          <img
+            src="images/etch_a_sketch.png"
+            alt="Etch-a-Sketch"
+            class="project-image"
+          />
+          <p class="project-description">Etch-a-Sketch project.</p>
+          <p>
+            <a
+              class="live-preview"
+              href="https://xstanthecoder.github.io/etch-a-sketch/"
+              target="_blank"
+              >Live Preview</a
+            >
+          </p>
+        </details>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-git"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-chrome"></i>
+          <i class="fa-solid fa-terminal"></i>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stan The Coder Portfolio Website</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Stan The Coder</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <article>
+          <h2>About Me</h2>
+          <p>
+            Hi! I'm Stan The Coder (real name a little bit later) and am an
+            Quality Assurance Engineer who wants to swith career to Full-Stack
+            Developer. To do this I joined 100 Days Of Code challenge and
+            started several courses (FreeCodeCamp, The Odin Project,
+            Codecademy). Currently I'm in the middle of my journey.
+          </p>
+        </article>
+        <img src="./images/logo.png" alt="A photo of Stan The Coder" />
+      </section>
+      <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>Rock Paper Scissors</li>
+          <li>Phrase Generator</li>
+          <li>Password Generator</li>
+          <li>Etch-a-Shetch</li>
+        </ul>
+      </section>
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li><i class="fas fa-heart"></i></li>
+          <li><i class="fa-brands fa-html5"></i></li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>git</li>
+          <li>GitHub</li>
+          <li>Command Line</li>
+          <li>Playwright</li>
+        </ul>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html> -->
